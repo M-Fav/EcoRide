@@ -15,7 +15,7 @@ public class UtilisateurController {
     private UtilisateurRepository utilisateurRepository;
 
     @GetMapping
-    public List<Utilisateur> getAllUtilisateur() {
+    public List<Utilisateur> getAllUtilisateurs() {
         return utilisateurRepository.findAll();
     }
 
